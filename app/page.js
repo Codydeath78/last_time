@@ -6,6 +6,11 @@ import SearchBar from 'material-ui-search-bar';
 import { initializeApp, firebase } from 'firebase/app'
 import { firestore } from './firebase';
 import 'firebase/firestore';
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import { TextField } from '@mui/material';
+import SearchBar from 'material-ui-search-bar';
+
 
 const firebaseConfig = {
   apiKey: 'your-api-key',

@@ -2,6 +2,11 @@
 import { initializeApp } from "firebase/app";
 //import { getAnalytics } from "firebase/analytics";
 import {getFirestore} from "firebase/firestore";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+import { TextField } from '@mui/material';
+import SearchBar from 'material-ui-search-bar';
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
