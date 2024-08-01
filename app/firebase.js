@@ -4,8 +4,8 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 import {firebase} from 'firebase/app';
 import 'firebase/firestore';
-import { TextField } from '@mui/material';
-import { SearchBar } from 'material-ui-search-bar';
+import { TextField, SearchBar } from '@mui/material';
+//import { SearchBar } from 'material-ui-search-bar';
 
 
 
