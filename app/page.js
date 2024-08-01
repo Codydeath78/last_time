@@ -3,7 +3,7 @@ import {Box, Stack, Typography,Button, Modal, Paper,TextField, setError, Alert, 
 import { getFirestore, collection, query, getDocs, Firestore, docSnap,doc, setDoc, deleteDoc, getDoc,count } from 'firebase/firestore';
 import { useEffect,useState,SERVER_PROPS_EXPORT_ERROR } from 'react';
 import { initializeApp, firebase } from 'firebase/app';
-import { firestore } from './firebase';
+import  firestore  from './firebase'; //test
 import 'firebase/firestore';
 
 
