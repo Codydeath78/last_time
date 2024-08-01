@@ -1,10 +1,10 @@
 'use client'
-import {Box, Stack, Typography,Button, Modal, Paper,TextField, setError, Alert, SearchBar} from './@mui/material'; //test
-import { getFirestore, collection, query, getDocs, Firestore, docSnap,doc, setDoc, deleteDoc, getDoc,count } from './firebase/firestore'; //test
-import { useEffect,useState,SERVER_PROPS_EXPORT_ERROR } from './react'; //test
-import { initializeApp, firebase } from './firebase/app'; //test
+import {Box, Stack, Typography,Button, Modal, Paper,TextField, setError, Alert, SearchBar} from '@mui/material'; 
+import { getFirestore, collection, query, getDocs, Firestore, docSnap,doc, setDoc, deleteDoc, getDoc,count } from 'firebase/firestore';
+import { useEffect,useState,SERVER_PROPS_EXPORT_ERROR } from 'react';
+import { initializeApp, firebase } from 'firebase/app';
 import { firestore } from './firebase';
-import './firebase/firestore';  //test
+import 'firebase/firestore';
 
 
 const firebaseConfig = {
