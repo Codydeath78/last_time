@@ -2,7 +2,6 @@
 import {Box, Stack, Typography,Button, Modal, Paper,TextField, setError, Alert, SearchBar} from '@mui/material'
 import { getFirestore, collection, query, getDocs, Firestore, docSnap,doc, setDoc, deleteDoc, getDoc,count } from 'firebase/firestore';
 import { useEffect,useState,SERVER_PROPS_EXPORT_ERROR } from 'react'
-//import SearchBar from 'material-ui-search-bar';
 import { initializeApp, firebase } from 'firebase/app'
 import { firestore } from './firebase';
 import 'firebase/firestore';

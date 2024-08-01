@@ -1,11 +1,11 @@
-// Import the functions you need from the SDKs you need
+// Import the functions you need from the SDKs
+
 import { initializeApp } from "firebase/app";
 //import { getAnalytics } from "firebase/analytics";
 import {getFirestore} from "firebase/firestore";
 import {firebase} from 'firebase/app';
 import 'firebase/firestore';
 import { TextField, SearchBar } from '@mui/material';
-//import { SearchBar } from 'material-ui-search-bar';
 
 
 
