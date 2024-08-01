@@ -11,7 +11,7 @@ import { SearchBar } from 'material-ui-search-bar';
 
 
 
-// For Firebase JS SDK
+// For Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyD5UDeUPTrl3mN9nEAgWk67p6_eA3NvpaI",
   authDomain: "pantry-tracker-80608.firebaseapp.com",
