@@ -6,6 +6,9 @@ import {firebase} from 'firebase/app';
 import 'firebase/firestore';
 import { TextField } from '@mui/material';
 import { SearchBar } from 'material-ui-search-bar';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 
 
