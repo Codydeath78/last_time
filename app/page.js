@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { initializeApp } from 'firebase/app';
 import { firestore } from './firebase'; 
 import 'firebase/firestore';
+import { yellow } from '@mui/material/colors';
 
 const firebaseConfig = {
   apiKey: 'your-api-key',
@@ -96,6 +97,7 @@ export default function Home() {
 
   return (
     <Box
+      bgcolor="lightgray"
       width="100vw"
       height="100vh"
       display="flex"
@@ -137,8 +139,8 @@ export default function Home() {
         </Box>
       </Modal>
 
-      <Button variant="contained" onClick={handleOpen}>
-        Add
+      <Button variant="contained" sx={{color:'black'}} onClick={handleOpen}>
+        Add Item
       </Button>
 
       <Paper>
@@ -182,10 +184,10 @@ export default function Home() {
                 Quantity: {count}
               </Typography>
               <Stack direction="row" spacing={2}>
-              <Button variant="contained" onClick={() => addItem(name)}>
-                Add Item
+              <Button variant="contained" sx={{color:'black'}} onClick={() => addItem(name)}>
+                Add
               </Button>
-              <Button variant="contained" onClick={() => removeItem(name)}>
+              <Button variant="contained" sx={{color:'black'}} onClick={() => removeItem(name)}>
                 Remove
               </Button>
               </Stack>
