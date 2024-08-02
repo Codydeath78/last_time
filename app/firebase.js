@@ -5,7 +5,8 @@ import  {initializeApp}  from "firebase/app";
 import {getFirestore} from "firebase/firestore"; 
 import {firebase } from 'firebase/app';     
 import 'firebase/firestore'; 
-import { TextField, SearchBar } from '@mui/material'; 
+import { TextField, SearchBar } from '@mui/material';
+import { getStorage } from "firebase/storage";
 
 
 
@@ -24,9 +25,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const storage = getStorage(app);
 //const analytics = getAnalytics(app);
 const firestore = getFirestore(app);
 export{
 app,
-firestore
+firestore,
+storage
 }

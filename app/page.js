@@ -6,6 +6,7 @@ import { initializeApp } from 'firebase/app';
 import { firestore } from './firebase'; 
 import 'firebase/firestore';
 import { yellow } from '@mui/material/colors';
+import Link from "next/link";
 
 const firebaseConfig = {
   apiKey: 'your-api-key',
@@ -195,6 +196,33 @@ export default function Home() {
           ))}
         </Stack>
       </Box>
+
+
+
+
+
+
+      <Stack>
+<h1>You can also upload images and view gallery!</h1>
+<nav>
+  <ul>
+    {/* Link to the Upload Image page */}
+    <li><Link href="/upload">Upload Image</Link></li>
+    {/* Link to the Gallery page */}
+    <li><Link href="/gallery">View Gallery</Link></li>
+  </ul>
+</nav>
+</Stack>
+
+
+
+
+
+
+
+
     </Box>
+
+
   );
 }
